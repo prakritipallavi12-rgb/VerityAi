@@ -1,0 +1,20 @@
+# Exact versions that were installed and tested on 2026-10-24 (Python 3.12.10).
+# Everyone installs with:  pip install -r requirements.txt
+# Full list of every sub-library: requirements-lock.txt
+
+streamlit==1.66.1              # dashboard (frontend)
+openai==3.37.0                 # LLM: generator + judge
+python-dotenv==1.2.4           # reads the API key from .env
+pypdf==6.21.2                  # reads text from PDFs
+sentence-transformers==6.2.0   # local embeddings (pulls in torch + transformers)
+torch==2.14.1
+transformers==5.20.2
+numpy==2.5.4                   # vector maths / cosine similarity
+pandas==3.1.0                  # tables in the dashboard
+altair==6.3.0                  # charts (confusion matrix, failure causes, history trend)
+fpdf2==2.8.9                   # PDF reports
+fastapi==0.162.0               # backend API
+uvicorn==0.54.0                # runs the API server
+python-multipart==0.0.32       # file uploads to the API
+requests==2.34.2               # dashboard -> API calls
+# SQLite (database) is built into Python - nothing to install

@@ -1,0 +1,10 @@
+# VerityAi theme: lilac + sky blue
+[theme]
+base = "light"
+primaryColor = "#8E6CCF"
+backgroundColor = "#FBF9FF"
+secondaryBackgroundColor = "#EEF5FC"
+textColor = "#2E2A47"
+
+[server]
+runOnSave = true

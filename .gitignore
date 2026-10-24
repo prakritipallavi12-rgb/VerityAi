@@ -1,0 +1,22 @@
+# Secrets - never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Saved evaluation runs + database (keep the folder, not the files)
+results/*
+!results/.gitkeep
+
+# Documents people upload in the dashboard (may be private)
+data/uploads/
+# Personal files - never publish, wherever they are copied in the project
+*PSUC*
+*psuc*
+
+# Local editor / tool settings
+.claude/
+.idea/
